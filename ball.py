@@ -57,4 +57,5 @@ class Ball(Turtle):
         return True
 
     def reset(self):
+        # send the ball to the center
         self.goto(0, 0)
